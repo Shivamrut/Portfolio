@@ -1,0 +1,46 @@
+/* Default style for larger screens */
+.title-style {
+    font-size: 60px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+    border: 2px solid #222;
+    padding: 10px 22px 6px 22px;
+}
+
+span {
+    margin-top: 15px;
+      font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  span:after, span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+
+/* Media query for screens with a maximum width indicating mobile devices */
+@media (max-width: 768px) {
+    .title-style {
+        font-size: 5.4vw; /* 2.7vw * 2 */
+        width: 40vw; /* 20vw * 2 */
+        padding: 2.78vw 6.12vw 1.66vw 6.12vw; /* 1.39vw * 2, 3.06vw * 2, 0.83vw * 2 */
+        border: 0.3vw solid #222; /* 0.15vw * 2 */
+    }
+    
+}

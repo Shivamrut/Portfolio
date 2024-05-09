@@ -42,5 +42,9 @@ span {
         padding: 2.78vw 6.12vw 1.66vw 6.12vw; /* 1.39vw * 2, 3.06vw * 2, 0.83vw * 2 */
         border: 0.3vw solid #222; /* 0.15vw * 2 */
     }
+    span {
+        font-size: 2.3vw; /* Adjusted font size for mobile devices */
+        grid-template-rows: 20px 0; /* Adjusted grid template rows for mobile devices */
+    }
     
 }

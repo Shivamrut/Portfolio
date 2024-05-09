@@ -91,3 +91,32 @@ h1 {
   {
     font-size: 50px;
   }
+
+  /* Media query for mobile devices */
+@media (max-width: 768px) {
+    .menu {
+        width: 5vw; /* Adjusted width for mobile devices */
+    }
+
+    .menu:hover {
+        width: 40vw;
+    }
+    .menu:hover~.container {
+        transform: perspective(80vw) rotateY(12deg) translateX(35vw) scaleY(1.2);
+    }
+    .menu:hover nav {
+        left: -10%;
+    }
+    
+    .container {
+        width: 90%; /* Adjusted width for mobile devices */
+        
+        margin-left: 5vw; /* No left margin for mobile devices */
+    }
+    
+    nav a {
+        font-size: 3.5vw; /* Adjusted font size for mobile devices */
+    }
+
+    
+}

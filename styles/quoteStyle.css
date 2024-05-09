@@ -1,6 +1,6 @@
 /* Declare font-face */
 @font-face {
-    font-family: 'BeautifulPeople'; /* Name the font whatever you want */
+    font-family: 'BP'; /* Name the font whatever you want */
     src: url('../resource/font1.ttf') format('truetype'), /* Path to your regular font file */
          url('../resource/font1.ttf') format('truetype'); /* Path to your bold font file */
     /* Add more src declarations if you have different font weights or styles */
@@ -19,7 +19,7 @@
 }
 .quote
 {
-    margin-top: 40px;;
+    margin-top: 40px;
     background: whitesmoke;
     width: 92%;
     font-family: 'Bunch';
@@ -53,7 +53,22 @@
   
   /* ******************************* */
  
+  @media (max-width: 768px) {
 
+    .quote{
+      width: 75%;
+      font-size: 8vw;
+      height: 400px;
+      font-family: "BP";
+    }
+    .quote p::before{
+      content: "";
+
+    }
+    .quote p::after{
+      content: "";
+    }
+  }
   
  
   

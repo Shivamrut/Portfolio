@@ -1,20 +1,20 @@
 /* Declare font-face */
 @font-face {
     font-family: 'BeautifulPeople'; /* Name the font whatever you want */
-    src: url('resource/font1.ttf') format('truetype'), /* Path to your regular font file */
-         url('resource/font1.ttf') format('truetype'); /* Path to your bold font file */
+    src: url('../resource/font1.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font1.ttf') format('truetype'); /* Path to your bold font file */
     /* Add more src declarations if you have different font weights or styles */
 }
 @font-face {
     font-family: 'Cassandra'; /* Name the font whatever you want */
-    src: url('resource/font2.ttf') format('truetype'), /* Path to your regular font file */
-         url('resource/font2.ttf') format('truetype'); /* Path to your bold font file */
+    src: url('../resource/font2.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font2.ttf') format('truetype'); /* Path to your bold font file */
     /* Add more src declarations if you have different font weights or styles */
 }
 @font-face {
     font-family: 'Bunch'; /* Name the font whatever you want */
-    src: url('resource/font3.ttf') format('truetype'), /* Path to your regular font file */
-         url('resource/font3.ttf') format('truetype'); /* Path to your bold font file */
+    src: url('../resource/font3.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font3.ttf') format('truetype'); /* Path to your bold font file */
     /* Add more src declarations if you have different font weights or styles */
 }
 .quote

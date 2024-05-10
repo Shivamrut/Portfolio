@@ -28,6 +28,12 @@
          url('../resource/font5.otf') format('truetype'); /* Path to your bold font file */
     /* Add more src declarations if you have different font weights or styles */
 }
+@font-face {
+    font-family: 'MC'; /* Name the font whatever you want */
+    src: url('../resource/font6.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font6.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
 body {
     background: white;
     box-sizing: content-box;
@@ -145,9 +151,13 @@ h1 {
         
         margin-left: 5vw; /* No left margin for mobile devices */
     }
+    nav{
+        margin-top: 30%;
+    }
     
     nav a {
-        font-size: 3.5vw; /* Adjusted font size for mobile devices */
+        font-size: 2.9vw; /* Adjusted font size for mobile devices */
+        font-family: 'MC';
     }
 
     

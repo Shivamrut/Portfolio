@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'BP'; /* Name the font whatever you want */
+    src: url('../resource/font1.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font1.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Cassandra'; /* Name the font whatever you want */
+    src: url('../resource/font2.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font2.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Bunch'; /* Name the font whatever you want */
+    src: url('../resource/font3.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font3.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'DB'; /* Name the font whatever you want */
+    src: url('../resource/font4.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font4.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Cement'; /* Name the font whatever you want */
+    src: url('../resource/font5.otf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font5.otf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'MC'; /* Name the font whatever you want */
+    src: url('../resource/font6.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font6.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+.nullstyle
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    text-align: center;
+}
+.tb{
+    font-size: 24px;
+    color: #fd5e53;
+}
+p{
+    font-family: "MC";
+}
+#hello{
+    color: #c04000;
+    font-size: 60px;
+    font-family: "BP";
+}
+
+@media (max-width : 786px)
+{
+    .tb{
+        font-size: 2.5vw;
+    }
+    #hello
+    {
+        font-size: 5vw;
+    }
+}

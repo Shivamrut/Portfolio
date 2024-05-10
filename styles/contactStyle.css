@@ -140,3 +140,75 @@ ul li a span:nth-child(4) {
     background: green;
 }
 
+@media (max-width: 768px) {
+
+    .container{
+        height: 100%;
+    }
+    .content ul {
+        flex-direction: column;
+        
+    }
+    .content ul li a {
+        margin-bottom: 10px;
+    }
+
+    .content ul li a span:nth-child(1) {
+        top: 0;
+        left: 0;
+        
+        transform-origin: right;
+    }
+    
+    .content ul li a:hover span:nth-child(1) {
+        transform: scaleX(1);
+        transform-origin: left;
+        transition:transform .5s;
+      }
+    
+    .content ul li a span:nth-child(3) {
+        bottom: 0;
+        left: 0;
+        transform-origin: left;
+    }
+    
+    .content ul li a:hover span:nth-child(3) {
+        transform: scaleX(1);
+        transform-origin: right;
+        transition:transform .5s;
+      }
+    
+     ul li a span:nth-child(2),
+    ul li a span:nth-child(4) {
+        width: 3px;
+        height: 100%;
+        background: #404040;
+    }
+    
+    .content ul li a span:nth-child(2) {
+        top: 0;
+        left: 0;
+        transform: scale(1);
+        transform-origin: bottom;
+    }
+    
+    .content ul li a:hover span:nth-child(2) {
+        transform: scale(0);
+        transform-origin: top;
+        transition: transform .5s;
+    }
+    
+    .content ul li a span:nth-child(4) {
+        bottom: 0;
+        right: 0;
+        transform: scale(1);
+        transform-origin: top;
+    }
+    
+    .content ul li a:hover span:nth-child(4) {
+        transform: scale(0);
+        transform-origin: bottom;
+        transition: transform .5s;
+    }
+    
+}

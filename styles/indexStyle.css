@@ -48,16 +48,28 @@ body {
     transition: 1s;
 }
 
+
+
+
+
+
+
+
 .menu:hover {
     width: 40vw;
 }
 
 .menu:hover~.container {
+
     transform: perspective(80vw) rotateY(10deg) translateX(35vw) scaleY(1.2);
 }
 
 .menu:hover nav {
     left: 20%;
+}
+
+.indicateNavbar{
+    color: gray;
 }
 
 .container {
@@ -75,7 +87,7 @@ body {
 
 nav {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 30%;
     left: -1000px;
     transition: .5s;
 }
@@ -136,6 +148,7 @@ h1 {
         width: 5vw; /* Adjusted width for mobile devices */
     }
 
+    
     .menu:hover {
         width: 40vw;
     }

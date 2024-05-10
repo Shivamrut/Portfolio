@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'BP'; /* Name the font whatever you want */
+    src: url('../resource/font1.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font1.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Cassandra'; /* Name the font whatever you want */
+    src: url('../resource/font2.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font2.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Bunch'; /* Name the font whatever you want */
+    src: url('../resource/font3.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font3.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'DB'; /* Name the font whatever you want */
+    src: url('../resource/font4.ttf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font4.ttf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
+@font-face {
+    font-family: 'Cement'; /* Name the font whatever you want */
+    src: url('../resource/font5.otf') format('truetype'), /* Path to your regular font file */
+         url('../resource/font5.otf') format('truetype'); /* Path to your bold font file */
+    /* Add more src declarations if you have different font weights or styles */
+}
 body {
     background: white;
     box-sizing: content-box;
@@ -39,7 +69,7 @@ body {
 
 nav {
     position: absolute;
-    margin-top: 50%;
+    margin-top: 40%;
     left: -1000px;
     transition: .5s;
 }
@@ -53,13 +83,15 @@ nav ul {
 nav li {
     line-height: 2em;
     letter-spacing: .3em;
+    padding-bottom: 30px;
 }
 
 nav a {
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
     color: #4f4e28;
     font-weight: 600;
+    font-family: 'DB';
 }
 
 nav a:hover {
